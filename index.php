@@ -1,12 +1,14 @@
 <?php
 
+use Pagekit\Application as App;
+
 /*
  * This array is the module definition.
  */
 return [
 
   // unique module name
-  'name' => 'module-name',
+  'name' => 'yourmodule',
 
   'type' => 'extension',
 
@@ -32,9 +34,9 @@ return [
   ],
 
   'routes' => [
-    '@analyze' => [
-      'path' => '/analyze',
-      'controller' => 'YourVendor\\YourModule\\Controller\\YourModuleController'
+    '@yourmodule' => [
+      'path' => '/yourmodule',
+      'controller' => 'YourVendor\\YourModule\\Controller\\YourController'
     ]
   ],
 
@@ -46,8 +48,8 @@ return [
 
   'menu' => [
     'yourmodule' => [
-      'label'  => '',
-      'icon'   => '',
+      'label'  => 'Your Module',
+      'icon'   => 'app/system/assets/images/placeholder-icon.svg',
       'url'    => '@yourmodule',
       'priority' => 110
     ]
