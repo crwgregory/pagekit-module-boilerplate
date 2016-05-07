@@ -1,0 +1,20 @@
+{
+  "name": "yourvendor/yourmodule",
+  "version": "0.0.1",
+  "type": "pagekit-extension",
+  "title": "Your Module",
+  "description": "",
+  "license": "",
+  "authors": [
+    {
+      "name": "",
+      "email": "",
+      "homepage": ""
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\YourModule\\": "src"
+    }
+  }
+}
