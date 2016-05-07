@@ -1,0 +1,1 @@
+# pagekit-module-boilerplate
