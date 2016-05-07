@@ -1,19 +1,20 @@
 {
   "name": "yourmodule",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crwgregory/pagekit-module-boilerplate.git"
+    "url": "git+https://github.com/yourvendor/yourmodule.git"
   },
-  "author": "Chris Gregory <crwgregory@gmail.com>",
   "bugs": {
-    "url": "https://github.com/crwgregory/pagekit-module-boilerplate/issues"
+    "url": "https://github.com/yourvendor/yourmodule.git/issues"
   },
-  "homepage": "https://github.com/crwgregory/pagekit-module-boilerplate#readme",
+  "private": true,
+  "homepage": "https://github.com/yourvendor/yourmodule.git#readme",
   "devDependencies": {
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",
