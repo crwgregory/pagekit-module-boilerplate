@@ -12,11 +12,6 @@
       "homepage": ""
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "YourVendor\\YourModule\\": "src"
-    }
-  },
   "require": {
     "nativerank/pagekit-logger": "^0.3.1"
   }
