@@ -13,6 +13,6 @@
     }
   ],
   "require": {
-    "nativerank/pagekit-logger": "^0.3.1"
+    
   }
 }
