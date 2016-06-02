@@ -12,6 +12,12 @@
       "homepage": ""
     }
   ],
+  "extra": {
+      "icon": "app/system/assets/images/placeholder-icon.svg"
+  },
+  "archive": {
+      "exclude": ["node_modules", "!/app"]
+  }
   "require": {
     
   }
