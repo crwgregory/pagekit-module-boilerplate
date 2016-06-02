@@ -14,12 +14,7 @@ return [
 
   // main point to register custom services and access existing ones
   'main' => function (App $app) {
-
-    // An easy was to log in Pagekit
-    // https://github.com/crwgregory/pagekit-logger
-    $app['getLogger'] = function(){
-      return new \Nativerank\Utilities\PagekitLogger('YourModule Logger', 'yourmodule/errors.log');
-    };
+    
   },
 
   // Autoload namespaces from given paths
