@@ -17,7 +17,7 @@
   },
   "archive": {
       "exclude": ["node_modules", "!/app"]
-  }
+  },
   "require": {
     
   }
